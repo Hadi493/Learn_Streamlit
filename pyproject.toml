@@ -1,0 +1,15 @@
+[project]
+name = "streamlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "streamlit",
+]
+
+[tool.uv.sources]
+streamlit = { workspace = true }
